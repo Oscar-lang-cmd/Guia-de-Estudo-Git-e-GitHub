@@ -1,8 +1,8 @@
-=========================================
-==== GUIA COMPLETO DE GIT E GITHUB ======
-=========================================
+# GUIA COMPLETO DE GIT E GITHUB 📒
 
->> SEÇÃO 1: INTRODUÇÃO AO GIT E GITHUB <<
+
+-----------------------------------------
+SEÇÃO 1: INTRODUÇÃO AO GIT E GITHUB 
 -----------------------------------------
 - **O que é Git?**
   - Sistema de Controle de Versão Distribuído (DVCS).
