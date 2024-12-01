@@ -32,9 +32,7 @@ SEÇÃO 2: CONFIGURANDO O GIT
 SEÇÃO 3: INICIANDO UM REPOSITÓRIO
 -----------------------------------------
 1. Criar um repositório local:
-   $ mkdir projeto
-   $ cd projeto
-   $ git init
+   $ git init - inicia um repositório local git 
 
 2. Clonar um repositório remoto:
    $ git clone <URL>
@@ -48,30 +46,30 @@ SEÇÃO 4: FLUXO BÁSICO DE TRABALHO
 
 2. Fazer um commit:
    $ git commit -m "Descrição do commit"
+   
+3. Vincular o respositório local com o respositório remoto
+  $ git remote add origin main <URL> do repositório remoto
 
-3. Enviar para o repositório remoto:
-   $ git push origin main
+4. Enviar para o repositório remoto:
+   $ git push -u origin main
 
-4. Atualizar com alterações do remoto:
+5. Atualizar com alterações do remoto:
    $ git pull origin main
 
-5. Verificar status dos arquivos:
+6. Verificar status dos arquivos:
    $ git status
 
 -----------------------------------------
 SEÇÃO 5: TRABALHANDO COM BRANCHES
 -----------------------------------------
 1. Criar uma nova branch:
-   $ git checkout -b nova_branch
+   $ git checkout -b "nome da nova branch"
 
 2. Alternar entre branches:
-   $ git checkout main
+   $ git checkout "nome da branch desejada"
 
-3. Mesclar branches:
-   $ git merge nova_branch
-
-4. Excluir uma branch:
-   $ git branch -d nome_branch
+3. Excluir uma branch:
+   $ git branch -d "nome da nova branch"
 
 -----------------------------------------
 SEÇÃO 6: RESOLUÇÃO DE CONFLITOS
