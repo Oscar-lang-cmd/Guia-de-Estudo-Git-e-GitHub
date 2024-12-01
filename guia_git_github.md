@@ -1,5 +1,4 @@
-# GUIA COMPLETO DE GIT E GITHUB 📒
-
+# GUIA COMPLETO DE GIT E GITHUB 😎🚀
 
 -----------------------------------------
 SEÇÃO 1: INTRODUÇÃO AO GIT E GITHUB 
@@ -143,6 +142,5 @@ SEÇÃO 10: DICAS IMPORTANTES
 3. Configure chaves SSH para autenticação com o GitHub.
 4. Faça backups usando `git reflog`.
 
-=========================================
-======== FIM DO GUIA ====================
-=========================================
+# FIM DO GUIA
+
