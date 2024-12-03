@@ -35,20 +35,20 @@ SEÇÃO 3: INICIANDO UM REPOSITÓRIO
    $ git init - inicia um repositório local git 
 
 2. Clonar um repositório remoto:
-   $ git clone <URL>
+   $ git clone URL do repositório 
 
 -----------------------------------------
 SEÇÃO 4: FLUXO BÁSICO DE TRABALHO
 -----------------------------------------
 1. Adicionar arquivos ao stage:
-   $ git add arquivo.txt
+   $ git add (arquivo.extensão)
    $ git add .  (Adiciona todos os arquivos)
 
 2. Fazer um commit:
-   $ git commit -m "Descrição do commit"
+   $ git commit -m "Mensagem do commit"
    
 3. Vincular o respositório local com o respositório remoto
-  $ git remote add origin main <URL> do repositório remoto
+  $ git remote add origin main URL (repositório remoto)
 
 4. Enviar para o repositório remoto:
    $ git push -u origin main
@@ -72,29 +72,9 @@ SEÇÃO 5: TRABALHANDO COM BRANCHES
    $ git branch -d "nome da nova branch"
 
 -----------------------------------------
-SEÇÃO 6: RESOLUÇÃO DE CONFLITOS
+SEÇÃO 6: DESFAZER ALTERAÇÕES
 -----------------------------------------
-1. Atualizar repositório local:
-   $ git pull origin main
-
-2. Resolver conflitos manualmente.
-
-3. Salvar ajustes:
-   $ git add arquivo.txt
-
-4. Commitar resoluções:
-   $ git commit -m "Conflitos resolvidos"
-
-5. Enviar alterações ao remoto:
-   $ git push origin main
-
------------------------------------------
-SEÇÃO 7: DESFAZER ALTERAÇÕES
------------------------------------------
-1. Reverter arquivo ao estado original:
-   $ git restore arquivo.txt
-
-2. Remover commits recentes:
+1. Remover commits recentes:
    a) Manter alterações no stage:
       $ git reset --soft <hash>
    b) Manter alterações no diretório:
